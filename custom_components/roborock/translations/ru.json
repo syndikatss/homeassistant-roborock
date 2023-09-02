@@ -68,7 +68,7 @@
       "roborock": {
         "description": "Общие настройки",
         "data": {
-          "cloud_integration": "Use cloud integration"
+          "cloud_integration": "Используйте облачную интеграцию"
         }
       }
     }
@@ -219,45 +219,45 @@
         "state_attributes": {
           "fan_speed": {
             "state": {
-              "auto": "Auto",
-              "balanced": "Balanced",
-              "custom": "Custom",
-              "gentle": "Gentle",
+              "auto": "Авто",
+              "balanced": "Баланс",
+              "custom": "Настраиваемая",
+              "gentle": "Мягкий",
               "off": "Off",
-              "max": "Max",
-              "max_plus": "Max+",
+              "max": "Макс",
+              "max_plus": "Макс+",
               "medium": "Medium",
-              "quiet": "Quiet",
-              "silent": "Silent",
-              "standard": "Standard",
-              "turbo": "Turbo"
+              "quiet": "Бесшумный",
+              "silent": "Тихий",
+              "standard": "Обычный",
+              "turbo": "Турбо"
             }
           },
           "status": {
             "state": {
-              "starting": "Starting",
-              "charger_disconnected": "Charger disconnected",
-              "idle": "Idle",
-              "remote_control_active": "Remote control active",
-              "cleaning": "Cleaning",
-              "returning_home": "Returning home",
-              "manual_mode": "Manual mode",
-              "charging": "Charging",
-              "charging_problem": "Charging problem",
-              "paused": "Paused",
-              "spot_cleaning": "Spot cleaning",
-              "error": "Error",
-              "shutting_down": "Shutting down",
-              "updating": "Updating",
-              "docking": "Docking",
-              "going_to_target": "Going to target",
-              "zoned_cleaning": "Zoned cleaning",
-              "segment_cleaning": "Segment cleaning",
-              "emptying_the_bin": "Emptying the bin",
-              "washing_the_mop": "Washing the mop",
-              "going_to_wash_the_mop": "Going to wash the mop",
-              "charging_complete": "Charging complete",
-              "device_offline": "Device offline"
+              "starting": "Запуск",
+              "charger_disconnected": "Зарядка отключена",
+              "idle": "Бездействие",
+              "remote_control_active": "Активен пульт дистанционного управления",
+              "cleaning": "Уборка",
+              "returning_home": "Возвращение домой",
+              "manual_mode": "Ручной режим",
+              "charging": "Зарядка",
+              "charging_problem": "Проблема зарядки",
+              "paused": "Пауза",
+              "spot_cleaning": "Точечная уборка",
+              "error": "Ошибка",
+              "shutting_down": "Остановлен",
+              "updating": "Обновление",
+              "docking": "Стыковка",
+              "going_to_target": "Следование к цели",
+              "zoned_cleaning": "Уборка зоны",
+              "segment_cleaning": "Уборка сегмента",
+              "emptying_the_bin": "Очистка мусорного контейнера",
+              "washing_the_mop": "Очистка тряпки",
+              "going_to_wash_the_mop": "Подготовка к очитске тряпки",
+              "charging_complete": "Зарядка завершена",
+              "device_offline": "Устройство отключено"
             }
           }
         }
@@ -268,27 +268,27 @@
         "name": "Не беспокоить начало"
       },
       "dnd_end": {
-        "name": "Не беспокоить конец"
+        "name": "Не беспокоить окончание"
       },
       "valley_electricity_start": {
-        "name": "Off-Peak charging start"
+        "name": "Использования зарядки начало"
       },
       "valley_electricity_end": {
-        "name": "Off-Peak charging end"
+        "name": "Использованиея зарядки окончание"
       }
     },
     "switch": {
       "child_lock": {
-        "name": "Child lock"
+        "name": "Детский замок"
       },
       "flow_led_status": {
-        "name": "Status Indicator Light"
+        "name": "Состояние светодиода"
       },
       "dnd_switch": {
-        "name": "DnD switch"
+        "name": "Переключение режима не беспокоить"
       },
       "valley_electricity_switch": {
-        "name": "Valley electricity switch"
+        "name": "Переключение режима зарядки"
       }
     }
   }
